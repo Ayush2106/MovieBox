@@ -1,0 +1,66 @@
+.footer{
+    height: 80vh;
+    color: azure;
+}
+h1{
+    font-size: large;
+    font-weight: bold;
+}
+h2{
+    font-size: medium;
+    font-weight: normal;
+}
+.heading{
+    height: 10vh;
+ 
+font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: rgb(196, 153, 118);
+}
+
+.second{
+     height: 70vh;
+    display: flex;
+    gap: 3rem;
+}
+.second .left{
+ display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    height: 60vh;
+}
+
+.lefta{
+    height: 25vh;
+    width: 75%;
+ }
+.leftb{
+    width: 75%;
+
+    height: 25vh;
+ }
+.foot{
+    width: 90vh;
+ 
+}
+
+
+.foot .lefti{
+    float: right;
+  padding-top: 55vh;
+  padding-right: 8%;
+
+}
+
+
+.heading h1:hover{
+cursor: pointer;
+font-style: italic;
+}
+.MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: rgb(207, 186, 157);
+}
