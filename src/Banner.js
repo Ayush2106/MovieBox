@@ -39,10 +39,10 @@ backgroundPosition : "center center",
    <h1 className='banner_title'>
        {movie?.title || movie?.name || movie?.original_name}
    </h1>
-   <div className='"banner_buttons'>
+   {/* <div className='"banner_buttons'>
        <button className='banner_button' >PLay</button>
        <button className="banner_button"> MY LIST</button>
-   </div>
+   </div> */}
    <h1 className='banner_description' >
   {  truncate(movie?.overview , 150)}
    </h1>

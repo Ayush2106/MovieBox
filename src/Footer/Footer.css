@@ -1,5 +1,5 @@
 .footer{
-    height: 80vh;
+    height: 100vh;
     color: azure;
 }
 h1{
@@ -13,16 +13,15 @@ h2{
 .heading{
     height: 10vh;
  
-font-size: medium;
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+font-size: large;
+margin-left: 10%;
+    /* display: flex; */
+    /* justify-content: center; */
     color: rgb(196, 153, 118);
 }
 
 .second{
-     height: 70vh;
-    display: flex;
+     height: 40vh;
     gap: 3rem;
 }
 .second .left{

@@ -40,19 +40,10 @@ function Footer() {
         e.preventDefault();
         window.location.href='  https://open.spotify.com/collection/playlists/';
         }}
-
-
   />
   </div>
-
-</div>
-<div className='right'>
-    {/* logos */}
-</div>
- 
-<div className='foot'>
-    <div className='lefti'>
-        <h2>Connect With US</h2>
+    <div className='leftb'>
+    <h2>Connect With US</h2>
 <div className='logoo'>
 <LinkedInIcon 
 onClick = {(e) =>{
@@ -79,8 +70,12 @@ onClick={(e) => {
     }}
 />
 </div>
-    </div>
 </div>
+
+</div>
+
+ 
+
 </div>
     </div>
   )
